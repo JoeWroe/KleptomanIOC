@@ -20,8 +20,9 @@ jobs:
       - name: Set up Python ${{ env.PYTHON_VERSION }}
         uses: actions/setup-python@v4
         with:
-          python-version: ${{ env.PYTHON_VERSION }}
           architecture: ${{ env.ARCHITECTURE }}
+          cache: pipenv
+          python-version: ${{ env.PYTHON_VERSION }}
 
       - name: Display Python version
         run: python -c "import sys; print(sys.version)"
