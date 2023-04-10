@@ -10,10 +10,12 @@ matchmock = "*"
 pyhamcrest = "*"
 pytest = "*"
 pytest-mock = "*"
+ruff = "*"
 
 [requires]
 python_version = "3.10"
 
 [scripts]
+lint = "ruff check ."
 kleptomanioc = "python -m src"
 unit-test = "pytest test/unit"
