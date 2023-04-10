@@ -35,7 +35,7 @@ jobs:
       - name: Install dependencies
         run: pipenv install --dev
 
-      - run: ls
+      - run: "ls -la"
 
       - name: Upload build artifacts
         uses: actions/upload-artifact@v3
@@ -43,10 +43,11 @@ jobs:
           name: kleptomanioc-build
           path: ./
 
-      - run: cd ..
+      - run: "cd .."
 
-      - run: ls
+      - run: "ls -la"
 
+      - run: "ls -la ~/.local"
 
   unit-test:
 
@@ -60,7 +61,9 @@ jobs:
           name: kleptomanioc-build
           path: ./
 
-      - run: ls
+      - run: "ls -la"
+
+      - run: "ls -la ~/.local"
 
       - name: Unit test
         run: pipenv run unit-test
