@@ -53,6 +53,9 @@ jobs:
     needs: build
 
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
       - name: Set up Python ${{ env.PYTHON_VERSION }}
         uses: actions/setup-python@v4
         with:
@@ -60,11 +63,11 @@ jobs:
           cache: pipenv
           python-version: ${{ env.PYTHON_VERSION }}
 
-      - name: Download build artifacts
-        uses: actions/download-artifact@v3
-        with:
-          name: kleptomanioc-build
-          path: ./
+      # - name: Download build artifacts
+      #   uses: actions/download-artifact@v3
+      #   with:
+      #     name: kleptomanioc-build
+      #     path: ./
 
       - run: "ls -la"
 
