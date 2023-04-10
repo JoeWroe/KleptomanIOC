@@ -1,0 +1,37 @@
+name: Test KleptomanIOC
+
+on:
+  push:
+    branch: ["main"]
+  pull_request:
+    branch: ["main"]
+
+env:
+  PYTHON_VERSION: '3.10'
+  ARCHITECTURE: 'x64'
+
+jobs:
+  unit-test:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python ${{ env.PYTHON_VERSION }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          architecture: ${{ env.ARCHITECTURE }}
+
+      - name: Display Python version
+        run: python -c "import sys; print(sys.version)"
+
+      - name: Install Pipenv
+        run: python -m pip install --upgrade pip
+
+      - name: Install dependencies
+        run: pipenv install --dev
+
+      - name: Unit test
+        run: pytest test/unit
+
