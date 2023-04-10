@@ -33,5 +33,5 @@ jobs:
         run: pipenv install --dev
 
       - name: Unit test
-        run: pytest test/unit
+        run: pipenv run unit-test
 
