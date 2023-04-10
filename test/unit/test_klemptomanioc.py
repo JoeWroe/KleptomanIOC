@@ -1,7 +1,5 @@
-# pyright: reportWildcardImportFromLibrary=false
-
-from hamcrest import *
-from matchmock import *
+from hamcrest import assert_that
+from matchmock import called_once
 
 import src.service.printer as printer_svc
 
