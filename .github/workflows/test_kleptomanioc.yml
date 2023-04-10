@@ -54,6 +54,8 @@ jobs:
           name: kleptomanioc-build
           path: ./
 
+      - run: ls
+
       - name: Unit test
         run: pipenv run unit-test
 
