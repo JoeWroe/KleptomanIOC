@@ -104,5 +104,5 @@ jobs:
         if: success() || failure()
         uses: actions/upload-artifact@v3
         with:
-          name: kleptomanioc-test-coverage-${{ github.workflow.sha }}
+          name: kleptomanioc-test-coverage-${{ github.sha }}
           path: ./cov_html/
