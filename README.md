@@ -6,6 +6,7 @@
 [![Contributors][contributors-shield]][contributors-url]
 [![Open Issues][open-issues-shield]][projects-url]
 [![Closed Issues][closed-issues-shield]][projects-url]
+[![License][license-shield]][license-url]
 
 # KleptomanIOC
 
@@ -62,11 +63,11 @@ python run kleptomanioc
 
 ## Contributing
 
-If you wish to contribute to this project, please feel free to raise draft stories on our project board, open issues and submit pull requests. Conversation, opinions and ideas are just as valuable as code, please don't be shy.
+If you wish to contribute to this project, please feel free to raise draft stories on our project board, open issues, and submit pull requests. Conversation, opinions and ideas are just as valuable as code; please don't be shy.
 
 ### Submitting pull requests
 
-Our pipeline will run against anycode committed to our main branch, and any pull requested opened against our main branch. Tests and checks are run in the pipeline, but it is always a good idea to perform them locally, first.
+Our pipeline will run against any code commit or pull request to our main branch. We run tests and checks in the pipeline, but it is always a good idea to perform them locally first.
 
 #### Running unit tests
 
@@ -79,6 +80,14 @@ pipenv run unit-test
 ```sh
 pipenv run style-check
 ```
+
+#### Obtaining a test code coverage report
+
+```sh
+pipenv run code-coverage
+```
+
+You will then see a simple coverage output in your terminal. Look in the newly created folder `cov_html/` for more information. You can use a browser to open the `index.html` file.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -104,3 +113,5 @@ Distributed under the GPL-3.0 License. See `LICENSE.txt` for more information.
 [open-issues-shield]: https://img.shields.io/github/issues/JoeWroe/KleptomanIOC?style=for-the-badge
 [closed-issues-shield]: https://img.shields.io/github/issues-closed/JoeWroe/KleptomanIOC?style=for-the-badge
 [projects-url]: https://github.com/users/JoeWroe/projects/1/views/1
+[license-shield]: https://img.shields.io/github/license/JoeWroe/KleptomanIOC?style=for-the-badge
+[license-url]: https://github.com/JoeWroe/KleptomanIOC/blob/main/LICENSE
