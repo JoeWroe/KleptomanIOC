@@ -101,6 +101,7 @@ jobs:
         run: pipenv run code-coverage
 
       - name: Upload coverage report
+        if: success() || failure()
         uses: actions/upload-artifact@v3
         with:
           name: kleptomanioc-test-coverage-${{ github.workflow }}-${{ github.ref }}
