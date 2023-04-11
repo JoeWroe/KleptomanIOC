@@ -1,0 +1,4 @@
+[tool.ruff]
+
+# Make lines longer since no one has used an 88 character terminal since before the Epoch.
+line-length = 100
