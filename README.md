@@ -58,6 +58,8 @@ python run kleptomanioc
 
 ## Roadmap
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Contributing
 
 If you wish to contribute to this project, please feel free to raise draft stories on our project board, open issues and submit pull requests. Conversation, opinions and ideas are just as valuable as code, please don't be shy.
@@ -77,6 +79,8 @@ pipenv run unit-test
 ```sh
 pipenv run style-check
 ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## License
 
