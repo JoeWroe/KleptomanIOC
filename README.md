@@ -25,6 +25,8 @@ A tool for swiping Indicators Of Compromise (IOC's) from data.
     - [Pipenv](https://pipenv.pypa.io/en/latest/) recommends installing via pip.
     - [Homebrew](https://formulae.brew.sh/formula/pipenv) also provides a formula.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### Installation
 
 1. Clone the repo
@@ -52,7 +54,7 @@ From the root of the cloned repository:
 python run kleptomanioc
 ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>ddu
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Roadmap
 
@@ -96,5 +98,5 @@ Distributed under the GPL-3.0 License. See `LICENSE.txt` for more information.
 [contributors-shield]: https://img.shields.io/github/contributors/JoeWroe/KleptomanIOC?color=informational&style=for-the-badge
 [contributors-url]: https://github.com/JoeWroe/KleptomanIOC/graphs/contributors
 [open-issues-shield]: https://img.shields.io/github/issues/JoeWroe/KleptomanIOC?style=for-the-badge
-[closed-issues-sield]: https://img.shields.io/github/issues-closed-raw/JoeWroe/KleptomanIOC?style=for-the-badge
+[closed-issues-shield]: https://img.shields.io/github/issues-closed-raw/JoeWroe/KleptomanIOC?style=for-the-badge
 [projects-url]: https://github.com/users/JoeWroe/projects/1/views/1
