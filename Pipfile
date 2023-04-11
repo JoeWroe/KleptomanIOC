@@ -16,6 +16,6 @@ ruff = "*"
 python_version = "3.10"
 
 [scripts]
-check-style = "ruff check ."
+style-check = "ruff check ."
 kleptomanioc = "python -m src"
 unit-test = "pytest test/unit"
