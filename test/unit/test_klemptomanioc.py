@@ -5,9 +5,11 @@ import src.service.printer as printer_svc
 
 from src.kleptomanioc import Kleptomanioc
 
-def test_should_call_the_asscii_printer(mocker):
-    mocker.patch("src.service.printer.asscii_art")
+class TestKleptomaniac():
 
-    Kleptomanioc().run()
+    def test_should_call_the_asscii_printer(self, mocker):
+        mocker.patch("src.service.printer.asscii_art")
 
-    assert_that(printer_svc.asscii_art, called_once())
+        Kleptomanioc().run()
+
+        assert_that(printer_svc.asscii_art, called_once())
