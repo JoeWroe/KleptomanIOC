@@ -98,5 +98,5 @@ Distributed under the GPL-3.0 License. See `LICENSE.txt` for more information.
 [contributors-shield]: https://img.shields.io/github/contributors/JoeWroe/KleptomanIOC?color=informational&style=for-the-badge
 [contributors-url]: https://github.com/JoeWroe/KleptomanIOC/graphs/contributors
 [open-issues-shield]: https://img.shields.io/github/issues/JoeWroe/KleptomanIOC?style=for-the-badge
-[closed-issues-shield]: https://img.shields.io/github/issues-closed-raw/JoeWroe/KleptomanIOC?style=for-the-badge
+[closed-issues-shield]: https://img.shields.io/github/issues-closed/JoeWroe/KleptomanIOC?style=for-the-badge
 [projects-url]: https://github.com/users/JoeWroe/projects/1/views/1
