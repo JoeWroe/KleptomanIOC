@@ -7,8 +7,8 @@ on:
     branch: ["main"]
 
 env:
-  PYTHON_VERSION: '3.10'
   ARCHITECTURE: 'x64'
+  PYTHON_VERSION: '3.10'
 
 jobs:
   build:
@@ -41,6 +41,8 @@ jobs:
       - name: Install dependencies
         run: pipenv install --dev
 
+      - run: "ls -la"
+
   unit-test:
 
     runs-on: ubuntu-latest
@@ -52,6 +54,8 @@ jobs:
         with:
           name: kleptomanioc-source-code
           path: ./
+
+      - run: "ls -la"
 
       - name: Set up Python ${{ env.PYTHON_VERSION }}
         uses: actions/setup-python@v4
