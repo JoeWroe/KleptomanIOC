@@ -57,13 +57,13 @@ python run kleptomanioc
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Roadmap
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## Contributing
 
 If you wish to contribute to this project, please feel free to raise draft stories on our project board, open issues, and submit pull requests. Conversation, opinions and ideas are just as valuable as code; please don't be shy.
+
+### Roadmap
+
+[Github Projects Board](https://github.com/users/JoeWroe/projects/1/views/1)
 
 ### Submitting pull requests
 

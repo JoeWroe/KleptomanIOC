@@ -4,6 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+argparse = "*"
 
 [dev-packages]
 matchmock = "*"
@@ -12,6 +13,9 @@ pytest = "*"
 pytest-mock = "*"
 ruff = "*"
 pytest-cov = "*"
+pudb = "*"
+pytest-pudb = "*"
+mock = "*"
 
 [requires]
 python_version = "3.10"
